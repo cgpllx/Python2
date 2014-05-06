@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--published at :2014-4-6 0:03:51 from jokeji-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>这家长,保证不笑死你_家庭_笑话集-左右键可切换笑话</title>
+<meta name="keywords" content="家长,笑死你,撞门上,换语文,财大气粗关系硬,酒后乱性">
+<meta name="description" content="1、前两天回家，看见我爸脸上有几道抓痕，刚结痂，出于关心我问了一下怎么回事，老爸含糊其辞说是撞门上了，旁边娘亲得意洋洋地来了句：我就是那个门。2、我在家写了一下">
+<link href="../../css/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/new_mod_main.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../../inc/check.js"></script>
+<script language="javascript" src="../../inc/myview.asp?nid=8934"></script>
+<script languave='javascript' src='/inc/hitstype.asp?type=joke&id=8934'></script>
+</head>
+
+<body>
+<script language="javascript" src="../../inc/global.js"></script>
+
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+<script type="text/javascript">
+BAIDU_CLB_preloadSlots("31558","133116","31571","133134","133139","133136","133187","133128","133131","133121","133132","271189","271190");
+</script>
+<!--网站头部开始-->
+<div class="main">
+	<div class="top">
+    	<div class="top_logo l_left"><a href="/"><img src="/logo.gif" alt='笑话集LOGO' /></a></div>
+        <div class="top_ad l_left"><script type="text/javascript">BAIDU_CLB_fillSlot("31571");</script><!-- 468-60 --></div>
+        <div class="top_login l_right" id="userstat"><script language="javascript">check3('/inc/UserStat.asp','userstat');</script></div>
+        <div class="clear"></div>
+        <div class="top_menu">
+        	<ul>
+                <li><a href="http://www.jokeji.cn" >首 页</a></li>
+                <li><a href="/list.htm">最新笑话</a></li>
+                <li><a href="/Keyword.htm">笑话分类</a></li>
+                <li><a href="/hot.htm">笑话排行</a></li>
+                <li><a href="http://photo.jokeji.cn/">图片频道</a></li>
+                <li><a href="http://photo.jokeji.cn/QQ.htm">QQ表情</a></li>
+                <li><a href="http://gaoxiao.jokeji.cn/">搞笑图片</a></li>
+               <li><a href="http://www.jokeji.cn/yuanchuangxiaohua/" target="_blank" class="ycxh">笑话大赛</a></li>
+              <li style="width:92px;"><a href="/joke_top.htm">笑话风云榜</a></li>
+            </ul>
+            <div class="top_count"><a href="http://game.jokeji.cn/" target="_blank">网页游戏排行</a></div>
+            <!--<div class="top_count">集齐第 <script language="javascript" src="/inc/countjoke.asp"></script> 笑话</div>-->
+            <div class="top_new"><img src="/images/newpic.gif" alt="新" width="22" height="13" border="0" /></div>
+        </div>
+
+<div class="search_top">
+         <form action="/search.asp" name="mysearch" method="post" target="_self">
+        	<div class="search_top_info">
+            <ul>
+                <li style="color:#4EAA00">搜索：</li>
+                <li><span id="cidselect">
+                <script language="javascript">check2('/inc/cid.asp','cidselect');</script>
+                 </span></li>
+                <li><input name="keyword" id="keyword" type="text" size="26" maxlength="18" class="input" />
+              </li>
+                <li><input type="image" src="/images/search.gif" border="0" alt="点击搜索笑话"/></li>
+			</ul>
+            </div>
+      </form>
+       
+<div class="top_search_baidu">
+<script type="text/javascript">BAIDU_CLB_fillSlot("133187");</script><!-- 百度搜索位置470-40 -->
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="top_adreg"><script type="text/javascript">BAIDU_CLB_fillSlot("133116");</script><!--960-90--></div>
+<div class="clear"></div>
+
+<div class="main margin10">
+<div class="mob_leftd">
+<div class="mob_left l_left"> 
+<div class="mob_left_b2 b2">
+<h1><a href="../../" title="返回首页" class="user_14">首页</a> -> <a  href="../../List4_1.htm" title="查看此类型的所有笑话" class="user_14">家庭</a> -> 这家长,保证不笑死你</h1>
+<span class="data l_right">浏览量: <script language='javascript' src='/inc/viewhits.asp?type=joke&newsid=8934'></script> 次</span>
+</div>
+<div class="clear"></div>
+<div>
+  
+<div class="ad468_15_1 l_left">
+<script type="text/javascript">BAIDU_CLB_fillSlot("133128");</script><!-- GG-1 -->
+</div>
+
+<div class="mob_txt_info l_right">字体：[<a href="javascript:void(null)" onclick="text110.style.fontSize='18px'" class="green_new">大</a>]　[<a href="javascript:void(null)" onclick="text110.style.fontSize='14px'" class="green_new">中</a>]　[<a href="javascript:void(null)" onclick="text110.style.fontSize='12px'" class="index-green">小</a>]　[<a href="javascript:window.print();" class="index-green">打印</a>] </div>
+</div>
+
+<div class="clear"></div>
+<div class="mob_txt">
+<div class="ad360_280">
+<script type="text/javascript">BAIDU_CLB_fillSlot("31558");</script><!--336-280-->
+</div>
+<span><b>阅读技巧</b>：键盘 ←左 右→ 翻页，Ctrl+D 收藏本篇笑话</span><br />
+<span id="text110"><P>1、前两天回家，看见我爸脸上有几道抓痕，刚结痂，<BR>出于关心我问了一下怎么回事，老爸含糊其辞说是撞门上了，旁边娘亲得意洋洋地来了句：我就是那个门。</P>
+<P>2、我在家写了一下午数学题，爸爸慈祥的来到我身边“看一下午数学累了吧。”<BR>我满心欢喜的以为可以玩了，“嗯，累！”<BR>“哦，那就换语文看看放松放松吧。”</P>
+<P>3、一对父子交谈。爸爸问儿子：“你知道男人，什么大，什么粗，什么硬女人才喜欢吗？”<BR>儿子摇头不知。旁边一路过的女人小脸微红，一脸羞涩。<BR>老爸说：“男人只有财大气粗关系硬，女人才会喜欢。” </P>
+<P>4、一哥们喝酒，他爸打电话过来，说：“儿子，酒后乱性，不要多喝。”<BR>哥们无语的告诉他爸爸，“这里全是男的哇！”<BR>沉默片刻，他爸语出惊人：“那更要注意酒后乱性的问题！”</P></span><br />
+
+<font color="#009900">看笑话就上：笑话集 www.jokeji.cn</font> 
+<br />
+<br />
+<div class="clear"></div>
+
+
+<div class="pl_ad">
+<ul>
+<li><b><a href="#bbs">发表评论</a></b></li>
+<li><span id="topelite" onclick="javascript:check('../../inc/topelite.asp?nid=8934','topelite')" alt="推荐">
+<script language="javascript">check1('../../inc/topelite.asp?nid=8934&action=view','topelite');</script></span></li>
+</ul>
+
+<div class="clear"></div>
+
+<div class="ad468_date">
+<b><script type="text/javascript">BAIDU_CLB_fillSlot("133131");</script> <!-- GG-2 --></b>
+<i>发布时间：2014-4-6 0:03:51</i>
+</div>
+
+</div>
+
+<div class="clear"></div>
+</div>
+
+<div class="page">
+<table width="100%" border="0" cellpadding="4" cellspacing="0">
+<tr align="center" >
+<td width="50%" align="left" class="user_14"><b>上一篇</b>：<a href="../../JokeHtml/gq/201404070001261.htm" class="user_14">揭露男女情感的经典趣语</a></td>
+<td width="50%" align="right" class="user_14"><b>下一篇</b>：<a href="../../JokeHtml/jr/2014040600024484.htm" class="user_14">清明的幽默段子也纷纷</a></td>
+</tr>
+</table>
+<script language=javascript><!--
+document.onkeydown=nextpage;
+var prevpage="../../JokeHtml/gq/201404070001261.htm";
+var nextpage="../../JokeHtml/jr/2014040600024484.htm";
+function nextpage(event)
+{ 
+event = event ? event : (window.event ? window.event : null); 
+if (event.keyCode==39)
+{if (nextpage!='')
+location=nextpage
+}
+if (event.keyCode==37)
+{if (prevpage!='')
+location=prevpage; 
+} 
+}  
+--></script>
+
+</div>
+
+</div>
+
+<div class="ad728_90_up">
+<!-- 阿里妈妈上 -->
+<script type="text/javascript">BAIDU_CLB_fillSlot("133134");</script>
+</div>
+<div class="clear"></div>
+
+<div class="jokeji_xg">
+ <div class="joke_xg_title b4">相关笑话</div>
+ <div class="joke_xg_txt b3"><table height='23' cellspacing='0' cellpadding='0' width='95%' border='0'>
+<tr height="30">
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20110318014117.htm" class="main_14" >搞笑的居家小幽默。</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/2014012600023591.htm" class="main_14" title="爆囧的老人,真是家有一老,如有一宝">爆囧的老人,真是家有一老...</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20130728000224.htm" class="main_14" title="小时侯挨打,爸妈用的那些恐怖武器">小时侯挨打,爸妈用的那些...</a>
+</td>
+</tr><tr height="30">
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20130730000227.htm" class="main_14" >夕阳岁月的冷幽默</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20120827050508.htm" class="main_14" >老人生活里的笑话精选</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/201401110002474.htm" class="main_14" >熊孩子和雷爸妈的小笑话</a>
+</td>
+</tr><tr height="30">
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20130526000430.htm" class="main_14" >奇葩爸妈笑死人</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20130624000244.htm" class="main_14" >逗人的孩子,幽默的家长</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20130609000238.htm" class="main_14" >笑破肚子的亲爸妈</a>
+</td>
+</tr><tr height="30">
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20090215023203.htm" class="main_14" >给朋友一笑!</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20110530015218.htm" class="main_14" >这些家长很冷很好笑</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20101206015642.htm" class="main_14" >居家小幽默</a>
+</td>
+</tr><tr height="30">
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20110923023929.htm" class="main_14" >居家生活老少乐</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20120704000828.htm" class="main_14" >居家生活常伴雷人爆笑</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20081005150709.htm" class="main_14" >还活着</a>
+</td>
+</tr><tr height="30">
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20120913000316.htm" class="main_14" >家长幽默起来可真逗</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20120314001756.htm" class="main_14" title="来点家庭生活冷人笑料,乐呵乐呵">来点家庭生活冷人笑料,乐...</a>
+</td>
+<td width='2%' align='left'><span><img src='/images/d02.gif' width='9' height='9' /></span></td>
+<td width="31%">
+<a href="/jokehtml/jt/20110222113717.htm" class="main_14" title="收集爸妈的语录，笑得我腮都痛了">收集爸妈的语录，笑得我腮...</a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="clear"></div>
+
+<div class="ad728_90_down">
+<!-- 阿里妈妈下 -->
+<script type="text/javascript">BAIDU_CLB_fillSlot("133136");</script>
+</div>
+
+<div class="clear"></div>
+
+
+
+
+<div class="bbs_l" id="plinfo">
+
+<div class="bbs_title" id="plcontent">评论内容</div>
+
+<div id="viewpl"><script language="javascript">sendpl('../../inc/p.asp?cid=4&nid=8934','viewpl','onlyview')</script></div>
+<div class="clear"></div>
+<a name="bbs" id="bbs"></a>
+
+
+<form name="formpl" method="post" action="/P.asp?action=add" style="margin:0px;padding:0px" onSubmit="return checkpl()">
+<div class="bbs">
+<div class="bbs_title">发表评论</div>
+<div class="bbs_info">
+<div class="bbs_p">
+<br />评论内容：
+</div>
+<div class="bbs_r">
+<textarea id="content" name="content" class="bbs_r_input"></textarea>
+</div>
+
+<div class="clear"></div>
+<div class="bbs_p">验证码：</div>
+
+<div class="bbs_r">
+<span><input name="v" type="text" id="v" onfocus="get_Code1();this.onfocus=null;" size="5" maxlength="4" class="bbs_r_yzm"></span>
+
+<span id="imgidpl">点击获取验证码</span>
+
+<span id="isok_codestr"></span>
+<span><input type="submit" name="Submit" value=" 提 交 " />
+      <input name="c_id" type="hidden" value="4" />
+      <input name="n_id" type="hidden" id="n_id" value="8934" /></span>
+      </ul>
+      </div>
+</div>
+</div>
+</form>
+</div>
+
+
+
+
+<div class="clear"></div>
+</div>
+
+
+
+
+
+<div class="mob_right l_right">
+<div>
+<h2><a href="../../hot.htm">热门笑话排行</a></h2>
+ 
+<div class="mob_right_list l_right">
+        <ul>
+        <li>·<a href="/jokehtml/zh/20110303001330.htm" >画家、城里人问路等经典笑话</a></li><li>·<a href="/jokehtml/bxnn/20090621174627.htm" >米线和牙缝</a></li><li>·<a href="/jokehtml/mj/20130113000425.htm" >坑爹的小贩、经理和买家</a></li><li>·<a href="/jokehtml/bxnn/20090815140608.htm" >屁都算我的</a></li><li>·<a href="/jokehtml/mj/20101219235841.htm" >奇思妙想,爆笑风趣</a></li><li>·<a href="/jokehtml/mj/20090118155136.htm" >砖瓦厂厂长与食品厂厂长取经</a></li><li>·<a href="/jokehtml/fq/20081023155704.htm" >农民娶妻爆笑！</a></li><li>·<a href="/jokehtml/冷笑话/20101029231956.htm" >搞笑的冷幽默,开心度周未</a></li>
+         </ul>
+        </div>
+</div>
+<div class="clear"></div>
+
+<div>
+<h2><a href="../../list.htm">精彩笑话推荐</a></h2>
+<div class="mob_right_list l_right">
+        <ul>
+        <li>·<a href="/jokehtml/zh/20081221223956.htm" >叫人狂晕的混帐逻辑</a></li><li>·<a href="/jokehtml/bxnn/20110910005106.htm" >女工、女友的雷人糗事</a></li><li>·<a href="/jokehtml/bxnn/20130606000353.htm" >恶心加猥琐,有点受不了.</a></li><li>·<a href="/jokehtml/bxnn/20121007000808.htm" >年轻男女的生活爆笑</a></li><li>·<a href="/jokehtml/gq/20130104000103.htm" >很写实的幽默情感箴言</a></li><li>·<a href="/jokehtml/xy/20090517022449.htm" >不同系女生初夜表白</a></li><li>·<a href="/jokehtml/xy/20100828235139.htm" >幽默调皮的小学生.</a></li><li>·<a href="/jokehtml/bxnn/20130726000348.htm" >技术精湛的幽默表演</a></li><li>·<a href="/jokehtml/gd/20090427181812.htm" >大话西游---中国电信</a></li>
+        </ul>
+        </div>
+</div>
+<div class="clear"></div>
+
+
+<div>
+<h2><a href="http://photo.jokeji.cn/offer.asp" target="_blank">推荐资讯信息</a></h2>
+  
+ 
+<div class="mob_right_float" id="box">
+<div id="float">
+<ul><script type="text/javascript">BAIDU_CLB_fillSlot("133139");</script></ul>
+</div>  
+</div>
+
+ 
+</div>
+
+
+
+</div>
+<!----右侧结束-->
+
+
+<div class="clear"></div>
+
+</div>
+
+<div class="foot">
+<div class="footer"><a href="http://www.Jokeji.cn" class="txt_top12">
+笑话集 www.Jokeji.cn 永久域名</a> Copyright &copy; All Rights Reserved 沪ICP备09013142号 <br>
+如果你喜欢本站,请把本站告诉给你QQ上的朋友哦! 如果网站内容侵犯到您的权益,请联系我们,我们会在24小时内删除.<br />
+温馨提示：Ctrl+D 会有惊喜哦，你试试看！
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F602dddd7b88df76981923e731cced763' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script src="http://s16.cnzz.com/stat.php?id=3753434&web_id=3753434&show=pic1" language="JavaScript"></script>
+<script src="http://s23.cnzz.com/stat.php?id=3455622&web_id=3455622&show=pic1" language="JavaScript"></script>
+</div>
+</div>
+
+<script type="text/javascript">BAIDU_CLB_fillSlot("133121");</script><!-- 漂浮-左 -->
+
+<script type="text/javascript">BAIDU_CLB_fillSlot("271189");</script><!--笑话关联文字链 -->
+
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=1&amp;pos=right&amp;uid=13338" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+var bds_config={"bdTop":237};
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END -->
+
+</body>
+</html>
