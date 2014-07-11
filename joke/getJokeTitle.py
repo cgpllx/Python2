@@ -68,3 +68,4 @@ f = file('joke.txt','w')
 f.write(html)
 f.close()
 jokeContent= getJokeContent(html);
+print jokeContent[0]
