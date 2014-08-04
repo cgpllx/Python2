@@ -1,0 +1,1218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>网页游戏网_Wangye.com_最新最火好玩的网页游戏大全</title>
+<meta name="description" content="网页游戏网汇集了最新最火好玩的网页游戏，每天为众多玩家提供最新网页游戏相关报道和网页游戏原创攻略、网页游戏原创评测，以及各种网页游戏激活码测试号。" />
+<meta name="keywords" content="网页游戏,最新网页游戏,网页游戏大全,网页游戏攻略,网页游戏评测,网页游戏开服表,网页游戏测试表,网页游戏发号,网页游戏激活码,网页游戏道具卡,网页游戏新手卡" />
+<meta content="text/html; charset=gb2312" http-equiv=Content-Type>	
+<link href="http://www.wangye.com/templets/css/index20111216/css.css" rel="stylesheet" type="text/css" />
+<style>
+	.line_b{
+		border: 1px solid #DDDDDD; background:#F8F8F8
+	}
+	#rechargeMessageBox a{ color:#277DA8; text-decoration:none}
+	#rechargeMessageBox a:hover{ color:#277DA8; text-decoration: underline}
+	.line_c{
+		background: #FAFAFA;
+		border-right-width: 1px;
+		border-bottom-width: 1px;
+		border-left-width: 1px;
+		border-right-style: solid;
+		border-bottom-style: solid;
+		border-left-style: solid;
+		border-right-color: #DDDDDD;
+		border-bottom-color: #DDDDDD;
+		border-left-color: #DDDDDD;
+	}
+	#rechargeMessageBox table tr td{ padding:5px}
+	.red{ color:#FF0101}
+	.check_time{ background:#FAFAFA; }
+	
+
+
+</style>
+</head>
+
+<script>
+function setType(name,cursel,n){
+	for(i=1;i<=n;i++){
+	  var con=document.getElementById("con_"+name+"_"+i);
+	  con.style.display=i==cursel?"block":"none";
+	}
+}			
+function showType(name,cursel,n){
+	for(i=1;i<=n;i++){
+	  var con=document.getElementById("con_"+name+"_"+i);
+	  con.className=i==cursel?"hover":"";
+	}
+} 
+</script>
+<body>
+<div id="rechargeMessageBox" style="position:absolute;background:#FFF;display:none;z-index:999;margin-top:100px;"></div>
+<div id="box">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<!--<link rel=stylesheet type=text/css href="http://www.wangye.com/templets/newstyle_images/style/head.css">-->
+<script type="text/javascript" src="http://www.wangye.com/templets/newstyle_images/jquery.js"></script>
+<script type="text/javascript">
+function mouseover(i){
+for(j=1;j<10;j++)
+	{
+		document.getElementById("menu"+j).className="menuA";
+	}
+document.getElementById("menu"+i).className="menuA menuB";
+}
+
+
+function setHomePage(obj,host){
+	if(!host){
+		var host = window.location.href;
+	}
+	obj.style.behavior = 'url(#default#homepage)';
+	obj.setHomePage(host);
+}
+
+function addBookmark(title)
+{
+	var url=location.href;
+	if (window.sidebar)
+	{ 
+		window.sidebar.addPanel(title, url,""); 
+	} 
+	else if( document.all )
+	{
+		window.external.AddFavorite( url, title);
+	} 
+	else if( window.opera && window.print )
+	{
+		return true;
+	}
+}
+
+function GetRequest() {
+   var url = location.search; //获取url中"?"符后的字串
+      var str = url.substr(1);
+      strs = str.split("=");
+
+   return strs[1];
+}
+
+
+</script>
+<div id="top" style="background:#FFFFFF">
+<div id="top01">	
+	<div class="topmain">
+		 <div class="top_r">
+		 	<span><img src="http://www.wangye.com/templets/images/index_r3_c6.jpg" /></span>
+			<A onclick="try{this.style.behavior='url(#default#homepage)';this.sethomepage(document.location.href);return false;}catch(e){alert('请手动设置!')}" href="javascript:void(0)" mce_href="javascript:void(0)">设为首页</A>
+			<span><img src="http://www.wangye.com/templets/images/index_r3_c16.jpg" /></span>
+			<a href="javascript:;" onClick="addBookmark('网页游戏网_最新最火好玩的网页游戏大全')">加入收藏</a>
+			<label>关注我们</label>
+			<span class="top_span"><img src="http://www.wangye.com/templets/images/xlwb.jpg" /></span>
+			<a target="_blank" href="http://weibo.com/wangyeyouxiwang">新浪微博</a>
+			<span><img src="http://www.wangye.com/templets/images/txwb.jpg" /></span>
+			<a target="_blank" href="http://t.qq.com/wangyeyouxiwang">腾讯微博</a>
+		</div>	
+        <span class="t_webtit" id="login">		
+			用户名<input class="head_ipt" type="text" id="uid" name="uid"/>
+			密码<input class="head_ipt" type="password" id="pwd" name="pwd"/>
+			<input type="hidden" id="code" name="code" value="skipcode"/>
+			<input class="t_websubmit" type="button" value="登录" onClick="btn_sub_login()"/>
+			<a class="t_forget" href="http://www.wangye.com/member/findpwd.php" target="_blank">忘记密码</a>
+			<font color="#656565"> | <a href="http://www.wangye.com/member/user_reg.php" target="_blank"><font color="#656565">注册</font></a></font>
+		</span>    	
+		<script src="/templets/newstyle_images/js/indexlogin.js" type="text/javascript"></script>
+	</div>	
+</div>
+<div class="logo"><a href="http://www.wangye.com" title="网页游戏网" ><img src="http://www.wangye.com/templets/images/logo001.jpg" width="217" height="83" alt="网页游戏网"/></a> </div>
+<div class="nav2">
+<ul>
+<li class="f1"><img src="http://www.wangye.com/templets/images/zzcl.jpg" /></li>
+<li class="f2">
+<a href="http://astd.wangye.com/"  target="_blank">傲视天地</a>|<a href="http://rxsg.wangye.com/"  target="_blank">热血三国</a>|<a href="http://mg.wangye.com/"  target="_blank">墨攻</a>|<a href="http://hxsg.wangye.com/"  target="_blank">幻想三国</a>|<a href="http://wly.wangye.com/"  target="_blank">卧龙吟</a>|<a href="http://mjz.wangye.com/"  target="_blank">名将志</a>|<a href="http://qjp.wangye.com/"  target="_blank">千军破</a>|<a href="http://dgwm.wangye.com/"  target="_blank">帝国文明</a>|<a href="http://xmzyw.wangye.com/"  target="_blank">信喵之野望</a>|<a href="http://mxsg.wangye.com/"  target="_blank">梦想三国</a>|<a href="http://wztx.wangye.com/"  target="_blank">王者天下</a>
+</li>
+</ul>
+<ul>
+<li class="f1"><img src="http://www.wangye.com/templets/images/jsby.jpg" /></li>
+<li class="f2">
+<a href="http://sxd.wangye.com/"  target="_blank">神仙道</a>|<a href="http://lj.wangye.com/"  target="_blank">龙将</a>|<a href="http://sssg.wangye.com/"  target="_blank">盛世三国</a>|<a href="http://frxz2.wangye.com/"  target="_blank">凡人修真2</a>|<a href="http://aj.wangye.com/"  target="_blank">傲剑</a>|<a href="http://aszt.wangye.com/"  target="_blank">傲视遮天</a>|<a href="http://mxjt.wangye.com/"  target="_blank">喵星军团</a>|<a href="http://zs.wangye.com/"  target="_blank">诛神</a>|<a href="http://slz.wangye.com/"  target="_blank">神龙斩</a>|<a href="http://lingjiang.wangye.com/"  target="_blank">灵将</a>|<a href="http://hysj.wangye.com/"  target="_blank">火影世界</a>
+</li>
+</ul>
+<ul>
+<li class="f1"><img src="http://www.wangye.com/templets/images/mnjy.jpg" /></li>
+<li class="f2">
+<a href="http://zqtx.wangye.com/"  target="_blank">足球天下</a>|<a href="http://wlzqjl2.wangye.com/"  target="_blank">武林足球经理2</a>|<a href="http://yqcm.wangye.com/"  target="_blank">一球成名</a>|<a href="http://sydg.wangye.com/"  target="_blank">商业帝国</a>|<a href="http://fhcq.wangye.com/"  target="_blank">富豪传奇</a>|<a href="http://cjfh.wangye.com/"  target="_blank">超级富豪</a>|<a href="http://lqdlm.wangye.com/"  target="_blank">篮球大联盟</a>|<a href="http://dcfy.wangye.com/"  target="_blank">地产风云</a>|<a href="http://gjzq.wangye.com/"  target="_blank">冠军足球</a>|<a href="http://hbzz.wangye.com/"  target="_blank">货币战争</a>|<a href="http://frg.wangye.com/"  target="_blank">富人国</a>
+</li>
+</ul>
+<ul style="margin:0">
+<li class="f1"><img src="http://www.wangye.com/templets/images/sqyc.jpg" /></li>
+<li class="f2">
+<a href="http://ddt.wangye.com/"  target="_blank">弹弹堂</a>|<a href="http://rxqq.wangye.com/"  target="_blank">热血球球</a>|<a href="http://xdlq.wangye.com/"  target="_blank">兄弟篮球</a>|<a href="http://tkdz.wangye.com/"  target="_blank">坦克大战</a>|<a href="http://sgs.wangye.com/"  target="_blank">三国杀</a>|<a href="http://zwdzjsol.wangye.com/"  target="_blank">植物大战僵尸ol</a>|<a href="http://pht.wangye.com/"  target="_blank">炮灰团</a>|<a href="http://wwsj.wangye.com/"  target="_blank">窝窝世界</a>|<a href="http://ryt.wangye.com/"  target="_blank">忍影堂</a>|<a href="http://yyg.wangye.com/"  target="_blank">悠悠谷</a>|<a href="http://xml.wangye.com/"  target="_blank">仙魔令</a>
+</li>
+</ul>
+</div>
+<div id="menu">
+<div id="menu01">
+<ul>
+<li><a href="http://www.wangye.com/" id="li_a_1" onclick="head_li('a',1,8)" class="hover">首页</a></li>
+<li><a href="http://xinwen.wangye.com" id="li_a_2" onclick="head_li('a',2,8)" class="">新闻</a></li>
+<li><a href="http://youxi.wangye.com" id="li_a_3" onclick="head_li('a',3,8)" class="">游戏大全</a></li>
+<li><a href="http://kaifu.wangye.com" id="li_a_4" onclick="head_li('a',4,8)" class="">开服表</a></li>
+<li><a href="http://gonglue.wangye.com" id="li_a_5" onclick="head_li('a',5,8)" class="">攻略</a></li>
+<li><a href="http://ceshi.wangye.com" id="li_a_6" onclick="head_li('a',6,8)" class="">测试表</a></li>
+<li><a href="http://pingce.wangye.com" id="li_a_7" onclick="head_li('a',7,8)" class="">评测</a></li>
+<li><a href="http://fahao.wangye.com" id="li_a_8" onclick="head_li('a',8,8)" class="">发号</a></li>
+</ul>
+<div class="hot"><img src="http://www.wangye.com/templets/images/hot.gif" /></div>
+</div>
+<div id="soso">
+
+<dl>
+ <form action="http://www.wangye.com/plus/search.php" name="formsearch">
+<dd>
+  <label>
+	<input id="keyword" name="keyword" type="text" value="输入游戏名称" onclick="del_key()" />
+	<input type="hidden" name="title" />
+  </label>
+</dd>
+<dt><a href="javascript:;"><input type="image" src="http://www.wangye.com/templets/images/so.jpg" width="28" height="22" /></a></dt>
+</form>
+<script type="text/javascript">
+function del_key(){
+	$("#keyword").val("");
+}
+
+function head_li(name,cursel,n){
+	for(i=1;i<=n;i++){
+	  var head_con=document.getElementById("li_"+name+"_"+i);
+	      head_con.className=i==cursel?"hover":"";
+	}
+}
+
+
+head_url=window.location.href;
+var head_str = head_url.substr(7);
+head_strs = head_str.split(".");
+if(head_strs[0] == 'www'){
+	head_li('a',1,8);
+}else if(head_strs[0] == 'xinwen'){
+	head_li('a',2,8);
+}else if(head_strs[0] == 'youxi'){
+	head_li('a',3,8);
+}else if(head_strs[0] == 'kaifu'){
+	head_li('a',4,8);
+}else if(head_strs[0] == 'gonglue'){
+	head_li('a',5,8);
+}else if(head_strs[0] == 'ceshi'){
+	head_li('a',6,8);
+}else if(head_strs[0] == 'pingce'){
+	head_li('a',7,8);
+}else if(head_strs[0] == 'fahao'){
+	head_li('a',8,8);
+}
+
+</script>
+</dl>
+</div>
+</div>
+</div>
+<script src="http://www.wangye.com/templets/newstyle_images/js/head.js" type="text/javascript"></script>
+<div id="hot_box">
+<div class="hot">
+<div class="hot_left">
+<h2><a href="http://xinwen.wangye.com/yejie/53822.html" target="_blank" title="轻游戏何去何从？页游仍处于高速增长">轻游戏何去何从？页游仍处于高速增长</a></h2>
+
+<h3>
+<A href="http://xinwen.wangye.com/yejie/53565.html" target="_blank" title="游戏出口额">游戏出口额</A>&nbsp;|&nbsp;<A href="http://xinwen.wangye.com/yejie/53635.html" target="_blank" title="便携式游戏">便携式游戏</A>&nbsp;|&nbsp; 
+<A href="http://xinwen.wangye.com/yejie/53613.html" target="_blank" title="网游规模">网游规模</A> 
+ </h3>
+
+<h2><a href="http://xinwen.wangye.com/yejie/53828.html" target="_blank" title="页游寡头化趋势 上半年市场规模达53亿">页游寡头化趋势 上半年市场规模达53亿</a></h2>
+
+ <h3>
+<A href="http://xinwen.wangye.com/yejie/53614.html" target="_blank" title="疯狂猜图">疯狂猜图</A>&nbsp;|&nbsp;<A href="http://xinwen.wangye.com/yejie/53607.html" target="_blank" title="收入千万">收入千万</A>&nbsp;|&nbsp;  
+<A href="http://xinwen.wangye.com/yejie/53625.html" target="_blank" title="手游乱象">手游乱象</A> 
+ </h3>
+
+<ul>
+<li>
+		<a  href="http://xinwen.wangye.com/yejie/53829.html" target="_blank" title="ChinaJoy展会如期而至 手游概念反遭滑铁卢">ChinaJoy展会如期而至 手游概念反遭滑铁卢</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53830.html" target="_blank" title="中国首个游戏行业公益基金成立">中国首个游戏行业公益基金成立</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53831.html" target="_blank" title="江南春密会纪学锋 或涉足网游联运市场">江南春密会纪学锋 或涉足网游联运市场</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53832.html" target="_blank" title="曹津：YY将涉足手游联运 肯定不做开发">曹津：YY将涉足手游联运 肯定不做开发</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53821.html" target="_blank" title="刘阳：页游仍是巨头与创业团队博弈市场">刘阳：页游仍是巨头与创业团队博弈市场</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53834.html" target="_blank" title="天音控股股价翻番 手游业务连年亏损">天音控股股价翻番 手游业务连年亏损</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53827.html" target="_blank" title="中小手游被“绑架” 资金欠缺难出头">中小手游被“绑架” 资金欠缺难出头</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53835.html" target="_blank" title="手游创业：选择强势渠道 注意留存率">手游创业：选择强势渠道 注意留存率</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53820.html" target="_blank" title="江南春：游戏到线上来投广告叫伟哥模式">江南春：游戏到线上来投广告叫伟哥模式</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53836.html" target="_blank" title="衣振海：各类游戏用户转化有规可循">衣振海：各类游戏用户转化有规可循</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53833.html" target="_blank" title="首份手游中报出炉 拓维手游收入暴增20倍">首份手游中报出炉 拓维手游收入暴增20倍</a>
+	</li><li>
+		<a  href="http://xinwen.wangye.com/yejie/53810.html" target="_blank" title="中国移动网络游戏用户规模已达1.71亿">中国移动网络游戏用户规模已达1.71亿</a>
+	</li>
+</ul>
+</div>
+<div class="hot_right">
+<div class="banner">
+<a href="http://xinwen.wangye.com/zixun/53740.html" target="_blank"><img src="http://www.wangye.com/uploads/allimg/130705/43_1325518151.jpg" width="500" height="235" /></a> 
+
+</div>
+<div class="hot_pic">
+<dl class='hot_pic_right'>
+<dd><a href="http://xinwen.wangye.com/zixun/53411.html" target="_blank"><img src="http://www.wangye.com/uploads/allimg/130506/43_1045461551.jpg" width="150" height="100" /></a></dd>
+<dt><a href="http://xinwen.wangye.com/zixun/53411.html" target="_blank" title="五月战斗新模式 要玩《大三国》二测开启">五月战斗新模式 要玩《大三国》二测开启</a></dt>
+</dl><dl class='hot_pic_right'>
+<dd><a href="http://xinwen.wangye.com/zixun/53344.html" target="_blank"><img src="http://www.wangye.com/uploads/allimg/130423/43_1303463141.jpg" width="150" height="100" /></a></dd>
+<dt><a href="http://xinwen.wangye.com/zixun/53344.html" target="_blank" title="黄金右脚重出江湖 《金球先生》热血开赛">黄金右脚重出江湖 《金球先生》热血开赛</a></dt>
+</dl>
+
+<dl>
+<dd><a href="http://xinwen.wangye.com/zixun/53394.html" target="_blank"><img src="http://www.wangye.com/uploads/allimg/130502/43_0940424721.jpg" width="150" height="100" /></a></dd>
+<dt><a href="http://xinwen.wangye.com/zixun/53394.html" target="_blank" title="RPG与策略完美结合 新作《御龙天下》首曝">RPG与策略完美结合 新作《御龙天下》首曝</a></dt>
+</dl>
+
+</div>
+</div>
+</div>
+</div>
+<div class="yxzx">
+<div class="yxzx_1">
+<div class="zx_left">
+<h2>
+<span>游戏资讯</span>
+<label><a href="http://xinwen.wangye.com/zixun/" target='_blank'>更多&gt;&gt;</a></label>
+</h2>
+<div class="zx_left_list">
+<h3><a href="http://xinwen.wangye.com/zixun/53805.html" target="_blank" title="那些年让小伙伴惊呆的形似“火影”的游">那些年让小伙伴惊呆的形似“火影”的游</a></h3>
+
+<ul>
+<li><a href="http://xinwen.wangye.com/zixun/53760.html" target="_blank" title="《藏龙》将推“无锁定”挑战模式">《藏龙》将推“无锁定”挑战模式</a></li>
+<li><a href="http://xinwen.wangye.com/zixun/53754.html" target="_blank" title="烈火战神7月版本火爆来袭">烈火战神7月版本火爆来袭</a></li>
+<li><a href="http://xinwen.wangye.com/zixun/53752.html" target="_blank" title="《仙域2》首开“一派双系”设定">《仙域2》首开“一派双系”设定</a></li>
+<li><a href="http://xinwen.wangye.com/zixun/53747.html" target="_blank" title="49you《大宗师》二次删档封测清爽开启">49you《大宗师》二次删档封测清爽开启</a></li>
+<li><a href="http://xinwen.wangye.com/zixun/53744.html" target="_blank" title="天气惹的祸 《藏龙》特色“雷雨系统”">天气惹的祸 《藏龙》特色“雷雨系统”</a></li>
+<li><a href="http://xinwen.wangye.com/zixun/53740.html" target="_blank" title="拒绝行尸走肉 《仙域2》灵宠炼化玩法呆">拒绝行尸走肉 《仙域2》灵宠炼化玩法呆</a></li>
+<li><a href="http://xinwen.wangye.com/zixun/53738.html" target="_blank" title="360《龙魂天下》今日火爆开启公测">360《龙魂天下》今日火爆开启公测</a></li>
+<li><a href="http://xinwen.wangye.com/zixun/53736.html" target="_blank" title="《藏龙》即将推出全新门派“纯女”">《藏龙》即将推出全新门派“纯女”</a></li>
+<li><a href="http://xinwen.wangye.com/zixun/53730.html" target="_blank" title="49you《大宗师》新版本曝光">49you《大宗师》新版本曝光</a></li>
+<li><a href="http://xinwen.wangye.com/zixun/53728.html" target="_blank" title="《藏龙》全新玩法“逐鹿”即将来袭">《藏龙》全新玩法“逐鹿”即将来袭</a></li>
+<li><a href="http://xinwen.wangye.com/zixun/53723.html" target="_blank" title="我和小伙伴们都惊呆了 那些亮瞎眼的页">我和小伙伴们都惊呆了 那些亮瞎眼的页</a></li>
+
+</ul>
+</div>
+<div class="zx_left_pic">
+<dl>
+<dd><a href="http://xinwen.wangye.com/zixun/50589.html" target="_blank"><img src="/uploads/allimg/121102/39-1211021003090-L.jpg" width="150" height="100" /></a></dd>
+<dt><a href="http://xinwen.wangye.com/zixun/50589.html" target="_blank" title="《暗黑斗神》2号携神器宝塔开启首次内">《暗黑斗神》2号携神器宝塔开启首次内</a></dt>
+</dl>
+<dl>
+<dd><a href="http://xinwen.wangye.com/zixun/50571.html" target="_blank"><img src="/uploads/allimg/121101/39-1211011006470-L.jpg" width="150" height="100" /></a></dd>
+<dt><a href="http://xinwen.wangye.com/zixun/50571.html" target="_blank" title="战火冲天《天行宝贝》武道会团体战全新">战火冲天《天行宝贝》武道会团体战全新</a></dt>
+</dl>
+
+</div>
+</div>
+<div class="zx_right">
+<div class="zx_right_ti">
+<span>游戏排行</span>
+</div>
+<div class="zx_right_list">
+  <table width="298" border="0" cellspacing="0" cellpadding="0" id='yxph'>
+    <tr>
+      <td height="29" align="center" bgcolor="#EFEFEF" class="color01">排名</td>
+      <td align="center" bgcolor="#EFEFEF" class="color01">游戏名称</td>
+      <td align="center" bgcolor="#EFEFEF" class="color01">搜索指数</td>
+      <td align="center" bgcolor="#EFEFEF" class="color01">上周开服</td>
+      <td align="center" bgcolor="#EFEFEF" class="color01">趋势</td>
+    </tr>
+  </table>
+</div>
+<script src="http://www.wangye.com/templets/js/index20111216/ajax.js" type="text/javascript"></script>  
+</div>
+</div>
+</div>
+<div class="yxzx">
+  <div class="xysd">
+    <div class="zx_left">
+      <h2 style="border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B3E1B3;"> <span>新游速递</span>
+          <label><a href="http://xinwen.wangye.com/xinyou/" target='_blank'>更多&gt;&gt;</a></label>
+      </h2>
+	  
+	<div class="zx_left_list">
+	<h3><a href="http://xinwen.wangye.com/xinyou/53644.html" target="_blank" title="蒸汽朋克3D游戏《蒸汽之城》中文版启动">蒸汽朋克3D游戏《蒸汽之城》中文版启动</a></h3>
+
+	<ul>
+	<li><a href="http://xinwen.wangye.com/xinyou/53761.html" target="_blank" title="新游《大秦外传》四大明星NPC首曝">新游《大秦外传》四大明星NPC首曝</a></li>
+<li><a href="http://xinwen.wangye.com/xinyou/53746.html" target="_blank" title="硬派武侠《南帝北丐2》印象站上线">硬派武侠《南帝北丐2》印象站上线</a></li>
+<li><a href="http://xinwen.wangye.com/xinyou/53745.html" target="_blank" title="项少龙亮相？《大秦外传》将推“血性代">项少龙亮相？《大秦外传》将推“血性代</a></li>
+<li><a href="http://xinwen.wangye.com/xinyou/53739.html" target="_blank" title="49you《帝国来了》不删档内测今日清凉">49you《帝国来了》不删档内测今日清凉</a></li>
+<li><a href="http://xinwen.wangye.com/xinyou/53737.html" target="_blank" title="《大秦外传》Gamebryo引擎揭秘">《大秦外传》Gamebryo引擎揭秘</a></li>
+<li><a href="http://xinwen.wangye.com/xinyou/53729.html" target="_blank" title="哥们网公布新游《大秦外传》首测时间">哥们网公布新游《大秦外传》首测时间</a></li>
+<li><a href="http://xinwen.wangye.com/xinyou/53724.html" target="_blank" title="超自由3D魔幻 《伊甸王朝》二测荣耀起">超自由3D魔幻 《伊甸王朝》二测荣耀起</a></li>
+<li><a href="http://xinwen.wangye.com/xinyou/53722.html" target="_blank" title="新游《大秦外传》邀你揭秘历史谜团">新游《大秦外传》邀你揭秘历史谜团</a></li>
+<li><a href="http://xinwen.wangye.com/xinyou/53715.html" target="_blank" title="硬派武侠《南帝北丐2》今日首次封测">硬派武侠《南帝北丐2》今日首次封测</a></li>
+<li><a href="http://xinwen.wangye.com/xinyou/53713.html" target="_blank" title="《蒸汽之城》封测最新推出类DOTA玩法">《蒸汽之城》封测最新推出类DOTA玩法</a></li>
+<li><a href="http://xinwen.wangye.com/xinyou/53706.html" target="_blank" title="全民封测 49you《帝国来了》创新型RTS">全民封测 49you《帝国来了》创新型RTS</a></li>
+
+	</ul>
+	</div>
+	<div class="zx_left_pic">
+	<dl>
+	<dd><a href="http://xinwen.wangye.com/xinyou/50551.html" target="_blank"><img src="/uploads/allimg/121031/39-121031110U40-L.jpg" width="150" height="100" /></a></dd>
+	<dt><a href="http://xinwen.wangye.com/xinyou/50551.html" target="_blank" title="犀利整蛊《冒险契约》海贼风格画面截图">犀利整蛊《冒险契约》海贼风格画面截图</a></dt>
+	</dl>
+<dl>
+	<dd><a href="http://xinwen.wangye.com/xinyou/50531.html" target="_blank"><img src="/uploads/allimg/121031/39-1210310949580-L.jpg" width="150" height="100" /></a></dd>
+	<dt><a href="http://xinwen.wangye.com/xinyou/50531.html" target="_blank" title="玩家不差钱style 《枭雄传》首曝三大特">玩家不差钱style 《枭雄传》首曝三大特</a></dt>
+	</dl>
+
+	</div>	  
+
+    </div>
+    <div class="zx_right">
+      <div class="zx_right_ti"> <span>开测时间表</span>
+          <label><a href="http://ceshi.wangye.com" target='_blank'>更多&gt;&gt;</a></label>
+      </div>
+      <div class="zx_right_list">
+        <table width="298" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="29" align="center" bgcolor="#EFEFEF" class="color01">游戏名称</td>
+            <td align="center" bgcolor="#EFEFEF" class="color01">时间</td>
+            <td align="center" bgcolor="#EFEFEF" class="color01">状态</td>
+            <td align="center" bgcolor="#EFEFEF" class="color01">类型</td>
+          </tr>
+		   
+		
+		  <script>
+				var i;
+				if(typeof(i)=='undefined'){
+					i = '0';
+				}else{
+					i = eval(i+1);
+				}
+				if(i%2 != 0){
+					document.write("<tr bgcolor='#EFEFEF'>");
+				}else{
+					document.write("<tr>");
+				}
+			</script>
+			  
+				<td height="29" align="center"><a title="横扫天下" href="http://hstx.wangye.com" target="_blank" class="color03">横扫天下</a></td>
+				<td align="center">07-12</td>
+				<td align="center" class="color04">公测</td>
+				<td align="center">角色扮演</td>
+			  </tr><script>
+				var i;
+				if(typeof(i)=='undefined'){
+					i = '0';
+				}else{
+					i = eval(i+1);
+				}
+				if(i%2 != 0){
+					document.write("<tr bgcolor='#EFEFEF'>");
+				}else{
+					document.write("<tr>");
+				}
+			</script>
+			  
+				<td height="29" align="center"><a title="中超足球" href="http://zczq.wangye.com" target="_blank" class="color03">中超足球</a></td>
+				<td align="center">07-10</td>
+				<td align="center" class="color04">封测</td>
+				<td align="center">休闲竞技</td>
+			  </tr><script>
+				var i;
+				if(typeof(i)=='undefined'){
+					i = '0';
+				}else{
+					i = eval(i+1);
+				}
+				if(i%2 != 0){
+					document.write("<tr bgcolor='#EFEFEF'>");
+				}else{
+					document.write("<tr>");
+				}
+			</script>
+			  
+				<td height="29" align="center"><a title="南帝北丐2" href="http://ndbger.wangye.com" target="_blank" class="color03">南帝北丐2</a></td>
+				<td align="center">07-09</td>
+				<td align="center" class="color04">首次删档内测</td>
+				<td align="center">角色扮演</td>
+			  </tr><script>
+				var i;
+				if(typeof(i)=='undefined'){
+					i = '0';
+				}else{
+					i = eval(i+1);
+				}
+				if(i%2 != 0){
+					document.write("<tr bgcolor='#EFEFEF'>");
+				}else{
+					document.write("<tr>");
+				}
+			</script>
+			  
+				<td height="29" align="center"><a title="大宗师" href="http://dzs.wangye.com" target="_blank" class="color03">大宗师</a></td>
+				<td align="center">07-08</td>
+				<td align="center" class="color04">二次删档</td>
+				<td align="center">角色扮演</td>
+			  </tr><script>
+				var i;
+				if(typeof(i)=='undefined'){
+					i = '0';
+				}else{
+					i = eval(i+1);
+				}
+				if(i%2 != 0){
+					document.write("<tr bgcolor='#EFEFEF'>");
+				}else{
+					document.write("<tr>");
+				}
+			</script>
+			  
+				<td height="29" align="center"><a title="帝国来了" href="http://dgll.wangye.com" target="_blank" class="color03">帝国来了</a></td>
+				<td align="center">07-01</td>
+				<td align="center" class="color04">封测</td>
+				<td align="center">战争策略</td>
+			  </tr><script>
+				var i;
+				if(typeof(i)=='undefined'){
+					i = '0';
+				}else{
+					i = eval(i+1);
+				}
+				if(i%2 != 0){
+					document.write("<tr bgcolor='#EFEFEF'>");
+				}else{
+					document.write("<tr>");
+				}
+			</script>
+			  
+				<td height="29" align="center"><a title="英雄启示录" href="http://yxqsl.wangye.com" target="_blank" class="color03">英雄启示录</a></td>
+				<td align="center">06-28</td>
+				<td align="center" class="color04">技术测试</td>
+				<td align="center">角色扮演</td>
+			  </tr><script>
+				var i;
+				if(typeof(i)=='undefined'){
+					i = '0';
+				}else{
+					i = eval(i+1);
+				}
+				if(i%2 != 0){
+					document.write("<tr bgcolor='#EFEFEF'>");
+				}else{
+					document.write("<tr>");
+				}
+			</script>
+			  
+				<td height="29" align="center"><a title="奇迹归来" href="http://qjgl.wangye.com" target="_blank" class="color03">奇迹归来</a></td>
+				<td align="center">06-27</td>
+				<td align="center" class="color04">公测</td>
+				<td align="center">角色扮演</td>
+			  </tr><script>
+				var i;
+				if(typeof(i)=='undefined'){
+					i = '0';
+				}else{
+					i = eval(i+1);
+				}
+				if(i%2 != 0){
+					document.write("<tr bgcolor='#EFEFEF'>");
+				}else{
+					document.write("<tr>");
+				}
+			</script>
+			  
+				<td height="29" align="center"><a title="复仇联盟" href="http://fclm.wangye.com" target="_blank" class="color03">复仇联盟</a></td>
+				<td align="center">06-26</td>
+				<td align="center" class="color04">删档内测</td>
+				<td align="center">角色扮演</td>
+			  </tr><script>
+				var i;
+				if(typeof(i)=='undefined'){
+					i = '0';
+				}else{
+					i = eval(i+1);
+				}
+				if(i%2 != 0){
+					document.write("<tr bgcolor='#EFEFEF'>");
+				}else{
+					document.write("<tr>");
+				}
+			</script>
+			  
+				<td height="29" align="center"><a title="独步天下" href="http://dbtx.wangye.com" target="_blank" class="color03">独步天下</a></td>
+				<td align="center">06-24</td>
+				<td align="center" class="color04">封测</td>
+				<td align="center">角色扮演</td>
+			  </tr><script>
+				var i;
+				if(typeof(i)=='undefined'){
+					i = '0';
+				}else{
+					i = eval(i+1);
+				}
+				if(i%2 != 0){
+					document.write("<tr bgcolor='#EFEFEF'>");
+				}else{
+					document.write("<tr>");
+				}
+			</script>
+			  
+				<td height="29" align="center"><a title="逆世界" href="http://nsj.wangye.com" target="_blank" class="color03">逆世界</a></td>
+				<td align="center">06-20</td>
+				<td align="center" class="color04">删档封测</td>
+				<td align="center">角色扮演</td>
+			  </tr>
+		  
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="yxzx">
+  <div class="yxcp">
+    <div class="zx_left">
+      <h2 style="border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B3D5E1;"> <span>游戏评测</span>
+          <label><a href="http://pingce.wangye.com" target='_blank'>更多&gt;&gt;</a></label>
+      </h2>
+
+	  	<div class="zx_left_list">
+		<h3><a href="http://pingce.wangye.com/52482.html" target="_blank" title="蛇年闯“龙潭虎穴”《九龙朝》新资料片">蛇年闯“龙潭虎穴”《九龙朝》新资料片</a></h3>
+
+		<ul>
+		<li><a href="http://pingce.wangye.com/51504.html" target="_blank" title="靖哥哥，妹纸来传功了《藏龙》内测试玩">靖哥哥，妹纸来传功了《藏龙》内测试玩</a></li>
+<li><a href="http://pingce.wangye.com/50924.html" target="_blank" title="公测首评 《兵锋天下》传奇式国战创硬">公测首评 《兵锋天下》传奇式国战创硬</a></li>
+<li><a href="http://pingce.wangye.com/47240.html" target="_blank" title="《圣途》评测：首款西游题材催泪巨献">《圣途》评测：首款西游题材催泪巨献</a></li>
+<li><a href="http://pingce.wangye.com/46918.html" target="_blank" title="圣战风云：打击感强 技能自动升级">圣战风云：打击感强 技能自动升级</a></li>
+<li><a href="http://pingce.wangye.com/46622.html" target="_blank" title="《兵锋天下》评测：成长方式多样 一键">《兵锋天下》评测：成长方式多样 一键</a></li>
+<li><a href="http://pingce.wangye.com/45690.html" target="_blank" title="绝代双骄：音效比较混乱 画面操作较好">绝代双骄：音效比较混乱 画面操作较好</a></li>
+<li><a href="http://pingce.wangye.com/44842.html" target="_blank" title="醉西游：剧情对话风趣 远近视角可切换">醉西游：剧情对话风趣 远近视角可切换</a></li>
+<li><a href="http://pingce.wangye.com/44431.html" target="_blank" title="乱斗无双：穿越乱斗题材 推图闯关模式">乱斗无双：穿越乱斗题材 推图闯关模式</a></li>
+<li><a href="http://pingce.wangye.com/43664.html" target="_blank" title="剑啸江湖：3D纯正武侠页游 界面UI不足">剑啸江湖：3D纯正武侠页游 界面UI不足</a></li>
+<li><a href="http://pingce.wangye.com/43417.html" target="_blank" title="音乐天国：Q版音乐类RPG游戏 曲风不错">音乐天国：Q版音乐类RPG游戏 曲风不错</a></li>
+<li><a href="http://pingce.wangye.com/42946.html" target="_blank" title="大侠传：武侠页游 画面清晰度极高">大侠传：武侠页游 画面清晰度极高</a></li>
+
+		</ul>
+		</div>
+		<div class="zx_left_pic">
+		<dl>
+		<dd><a href="http://pingce.wangye.com/50054.html" target="_blank"><img src="/uploads/allimg/121010/39-1210101I2140-L.jpg" width="150" height="100" /></a></dd>
+		<dt><a href="http://pingce.wangye.com/50054.html" target="_blank" title="《古神开天》评测：潮流化商品团购消费">《古神开天》评测：潮流化商品团购消费</a></dt>
+		</dl>
+<dl>
+		<dd><a href="http://pingce.wangye.com/49037.html" target="_blank"><img src="/uploads/allimg/120910/39-120910162Z80-L.jpg" width="150" height="100" /></a></dd>
+		<dt><a href="http://pingce.wangye.com/49037.html" target="_blank" title="《封神无双》评测：完美画面演绎仙境奇">《封神无双》评测：完美画面演绎仙境奇</a></dt>
+		</dl>
+
+		</div>	
+	  
+    </div>
+    <div class="zx_right">
+      <div class="zx_right_ti"> <span>帐号发放</span>
+          <label><a href="http://fahao.wangye.com" target='_blank'>更多&gt;&gt;</a></label>
+      </div>
+      <div class="yxcp_ti">
+      <ul>
+      <li><a href="javascript:;" id="con_type_1"  onmousemove="showType('type',1,3);setType('news',1,3)"  class="hover">激活码</a></li>
+      <li><a href="javascript:;" id="con_type_2"  onmousemove="showType('type',2,3);setType('news',2,3)" >游戏礼包</a></li>
+      <li><a href="javascript:;" id="con_type_3"  onmousemove="showType('type',3,3);setType('news',3,3)" >新手卡</a></li>
+      </ul>
+      </div>
+	  <div class="zx_right_list">
+
+		  <div id="con_news_1" ></div>
+		  <div id="con_news_2" style="display:none;"></div>
+		  <div id="con_news_3" style="display:none;"></div>
+
+	  </div>
+
+    </div>
+  </div>
+</div>
+<div class="yxzx">
+<div class="yxzx_1">
+<div class="zx_left">
+<h2>
+<span>业界资讯</span>
+<label><a href="http://xinwen.wangye.com/yejie/" target='_blank'>更多&gt;&gt;</a></label>
+</h2>
+
+	<div class="zx_left_list">
+	<h3><a href="http://xinwen.wangye.com/yejie/53733.html" target="_blank" title="页游未死 移动游戏是未来">页游未死 移动游戏是未来</a></h3>
+
+	<ul>
+	<li><a href="http://xinwen.wangye.com/yejie/53765.html" target="_blank" title="有观点称2013年成都手游80%将被淘汰">有观点称2013年成都手游80%将被淘汰</a></li>
+<li><a href="http://xinwen.wangye.com/yejie/53764.html" target="_blank" title="第七大道前CEO曹凯独资百万创业 组建页">第七大道前CEO曹凯独资百万创业 组建页</a></li>
+<li><a href="http://xinwen.wangye.com/yejie/53762.html" target="_blank" title="网页游戏行业泡沫需警惕 优化改革才是">网页游戏行业泡沫需警惕 优化改革才是</a></li>
+<li><a href="http://xinwen.wangye.com/yejie/53759.html" target="_blank" title="手游渠道成本激增 月入千万仍难赚钱">手游渠道成本激增 月入千万仍难赚钱</a></li>
+<li><a href="http://xinwen.wangye.com/yejie/53758.html" target="_blank" title="微信游戏即将爆发？腾讯移动游戏平台低">微信游戏即将爆发？腾讯移动游戏平台低</a></li>
+<li><a href="http://xinwen.wangye.com/yejie/53757.html" target="_blank" title="上市公司竞逐手游泡沫隐现 行业专等“">上市公司竞逐手游泡沫隐现 行业专等“</a></li>
+<li><a href="http://xinwen.wangye.com/yejie/53756.html" target="_blank" title="人人游戏出资1000万 与清华心理系合建">人人游戏出资1000万 与清华心理系合建</a></li>
+<li><a href="http://xinwen.wangye.com/yejie/53755.html" target="_blank" title="腾讯移动游戏平台首批11款手游上线 多">腾讯移动游戏平台首批11款手游上线 多</a></li>
+<li><a href="http://xinwen.wangye.com/yejie/53753.html" target="_blank" title="页游Q1收入22.7亿 品质时代悄然来临">页游Q1收入22.7亿 品质时代悄然来临</a></li>
+<li><a href="http://xinwen.wangye.com/yejie/53751.html" target="_blank" title="腾讯游戏占网吧用户启动程序前十中六席">腾讯游戏占网吧用户启动程序前十中六席</a></li>
+<li><a href="http://xinwen.wangye.com/yejie/53750.html" target="_blank" title="第八届游戏项目交易会即将开启">第八届游戏项目交易会即将开启</a></li>
+
+	</ul>
+	</div>
+	<div class="zx_left_pic">
+	<dl>
+	<dd><a href="http://xinwen.wangye.com/yejie/53190.html" target="_blank"><img src="/uploads/allimg/130321/3822-1303211106030-L.jpg" width="150" height="100" /></a></dd>
+	<dt><a href="http://xinwen.wangye.com/yejie/53190.html" target="_blank" title="梦工厂《侠义世界》青春版上线 品牌塑">梦工厂《侠义世界》青春版上线 品牌塑</a></dt>
+	</dl>
+<dl>
+	<dd><a href="http://xinwen.wangye.com/yejie/53174.html" target="_blank"><img src="/uploads/allimg/130320/3822-1303201452270-L.jpg" width="150" height="100" /></a></dd>
+	<dt><a href="http://xinwen.wangye.com/yejie/53174.html" target="_blank" title="《我叫MT》端游版截图曝光 非"说不得大">《我叫MT》端游版截图曝光 非"说不得大</a></dt>
+	</dl>
+
+	</div>	
+
+</div>
+<div class="zx_right">
+<div class="zx_right_ti">
+<span>最新开服</span>
+<label><a href="http://kaifu.wangye.com" target='_blank'>更多&gt;&gt;</a></label>
+</div>
+<div class="zx_right_list">
+  <table width="298" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="29" align="center" bgcolor="#EFEFEF" class="color01">服务器名</td>
+      <td align="center" bgcolor="#EFEFEF" class="color01">游戏名称</td>
+      <td align="center" bgcolor="#EFEFEF" class="color01">运营商</td>
+    </tr>
+	<script>
+		var i;
+		if(typeof(i)=='undefined'){
+			i = '0';
+		}else{
+			i = eval(i+1);
+		}
+		if(i%2 != 0){
+			document.write("<tr bgcolor='#EFEFEF'>");
+		}else{
+			document.write("<tr>");
+		}
+	</script>
+      <td height="29" align="center">双线78区</td>
+      <td align="center"><a href="http://sxd.wangye.com" target='_blank' class="color03">神仙道</a></td>
+      <td align="center"><span class="color04">360uu游戏平台</span></td>
+    </tr><script>
+		var i;
+		if(typeof(i)=='undefined'){
+			i = '0';
+		}else{
+			i = eval(i+1);
+		}
+		if(i%2 != 0){
+			document.write("<tr bgcolor='#EFEFEF'>");
+		}else{
+			document.write("<tr>");
+		}
+	</script>
+      <td height="29" align="center">双线73区</td>
+      <td align="center"><a href="http://rxhzw.wangye.com" target='_blank' class="color03">热血海贼王</a></td>
+      <td align="center"><span class="color04">一起飞游戏平台</span></td>
+    </tr><script>
+		var i;
+		if(typeof(i)=='undefined'){
+			i = '0';
+		}else{
+			i = eval(i+1);
+		}
+		if(i%2 != 0){
+			document.write("<tr bgcolor='#EFEFEF'>");
+		}else{
+			document.write("<tr>");
+		}
+	</script>
+      <td height="29" align="center">双线139区</td>
+      <td align="center"><a href="http://sxd.wangye.com" target='_blank' class="color03">神仙道</a></td>
+      <td align="center"><span class="color04">爱上去游戏</span></td>
+    </tr><script>
+		var i;
+		if(typeof(i)=='undefined'){
+			i = '0';
+		}else{
+			i = eval(i+1);
+		}
+		if(i%2 != 0){
+			document.write("<tr bgcolor='#EFEFEF'>");
+		}else{
+			document.write("<tr>");
+		}
+	</script>
+      <td height="29" align="center">双线91区</td>
+      <td align="center"><a href="http://sxd.wangye.com" target='_blank' class="color03">神仙道</a></td>
+      <td align="center"><span class="color04">404wan游戏平台</span></td>
+    </tr><script>
+		var i;
+		if(typeof(i)=='undefined'){
+			i = '0';
+		}else{
+			i = eval(i+1);
+		}
+		if(i%2 != 0){
+			document.write("<tr bgcolor='#EFEFEF'>");
+		}else{
+			document.write("<tr>");
+		}
+	</script>
+      <td height="29" align="center">双线58区</td>
+      <td align="center"><a href="http://rxhzw.wangye.com" target='_blank' class="color03">热血海贼王</a></td>
+      <td align="center"><span class="color04">404wan游戏平台</span></td>
+    </tr><script>
+		var i;
+		if(typeof(i)=='undefined'){
+			i = '0';
+		}else{
+			i = eval(i+1);
+		}
+		if(i%2 != 0){
+			document.write("<tr bgcolor='#EFEFEF'>");
+		}else{
+			document.write("<tr>");
+		}
+	</script>
+      <td height="29" align="center">双线49区</td>
+      <td align="center"><a href="http://sxd.wangye.com" target='_blank' class="color03">神仙道</a></td>
+      <td align="center"><span class="color04">202wan网页游戏</span></td>
+    </tr><script>
+		var i;
+		if(typeof(i)=='undefined'){
+			i = '0';
+		}else{
+			i = eval(i+1);
+		}
+		if(i%2 != 0){
+			document.write("<tr bgcolor='#EFEFEF'>");
+		}else{
+			document.write("<tr>");
+		}
+	</script>
+      <td height="29" align="center">双线26区</td>
+      <td align="center"><a href="http://rxhzw.wangye.com" target='_blank' class="color03">热血海贼王</a></td>
+      <td align="center"><span class="color04">202wan网页游戏</span></td>
+    </tr><script>
+		var i;
+		if(typeof(i)=='undefined'){
+			i = '0';
+		}else{
+			i = eval(i+1);
+		}
+		if(i%2 != 0){
+			document.write("<tr bgcolor='#EFEFEF'>");
+		}else{
+			document.write("<tr>");
+		}
+	</script>
+      <td height="29" align="center">双线129区</td>
+      <td align="center"><a href="http://sxd.wangye.com" target='_blank' class="color03">神仙道</a></td>
+      <td align="center"><span class="color04">918s游戏平台</span></td>
+    </tr><script>
+		var i;
+		if(typeof(i)=='undefined'){
+			i = '0';
+		}else{
+			i = eval(i+1);
+		}
+		if(i%2 != 0){
+			document.write("<tr bgcolor='#EFEFEF'>");
+		}else{
+			document.write("<tr>");
+		}
+	</script>
+      <td height="29" align="center">双线117区</td>
+      <td align="center"><a href="http://sxd.wangye.com" target='_blank' class="color03">神仙道</a></td>
+      <td align="center"><span class="color04">一起飞游戏平台</span></td>
+    </tr><script>
+		var i;
+		if(typeof(i)=='undefined'){
+			i = '0';
+		}else{
+			i = eval(i+1);
+		}
+		if(i%2 != 0){
+			document.write("<tr bgcolor='#EFEFEF'>");
+		}else{
+			document.write("<tr>");
+		}
+	</script>
+      <td height="29" align="center">双线126区</td>
+      <td align="center"><a href="http://hysj.wangye.com" target='_blank' class="color03">火影世界</a></td>
+      <td align="center"><span class="color04">655U游戏</span></td>
+    </tr>
+   
+  </table>
+</div>
+</div>
+</div>
+</div>
+<div class="yxzx">
+  <div class="xysd">
+    <div class="zx_left">
+      <h2 style="border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B3E1B3;"> <span>游戏攻略</span>
+          <label><a href="http://gonglue.wangye.com" target='_blank'>更多&gt;&gt;</a></label>
+      </h2>
+	  
+	  	<div class="zx_left_list">
+		<h3><a href="http://xlfc.wangye.com/gonglue/53194.html" target="_blank" title="《仙落凡尘》超炫坐骑培养攻略">《仙落凡尘》超炫坐骑培养攻略</a></h3>
+		<ul>
+		<li><a href="http://dxz.wangye.com/gonglue/53195.html" target="_blank" title="《大侠传》帮会战详细攻略">《大侠传》帮会战详细攻略</a></li><li><a href="http://aszt.wangye.com/gonglue/53179.html" target="_blank" title="《傲视遮天》高等元神修炼技巧">《傲视遮天》高等元神修炼技巧</a></li><li><a href="http://lhzs.wangye.com/gonglue/53163.html" target="_blank" title="《烈火战神》高级装备获取攻略">《烈火战神》高级装备获取攻略</a></li><li><a href="http://rxsg2.wangye.com/gonglue/53144.html" target="_blank" title="《热血三国2》攻打县城郡城攻略">《热血三国2》攻打县城郡城攻略</a></li><li><a href="http://frxz2.wangye.com/gonglue/53116.html" target="_blank" title="《凡人修真2》宠物群攻技能选择技巧">《凡人修真2》宠物群攻技能选择技巧</a></li><li><a href="http://xlfc.wangye.com/gonglue/53097.html" target="_blank" title="《仙落凡尘》宠物资质上线提升攻略">《仙落凡尘》宠物资质上线提升攻略</a></li><li><a href="http://jjsg.wangye.com/gonglue/53059.html" target="_blank" title="《街机三国》非RMB玩家快速赚钱攻略">《街机三国》非RMB玩家快速赚钱攻略</a></li><li><a href="http://zxy.wangye.com/gonglue/53008.html" target="_blank" title="《醉西游》锻造神兵小技巧">《醉西游》锻造神兵小技巧</a></li><li><a href="http://jlc.wangye.com/gonglue/52958.html" target="_blank" title="《九龙朝》法器强化数据揭秘">《九龙朝》法器强化数据揭秘</a></li><li><a href="http://xmhzc.wangye.com/gonglue/52931.html" target="_blank" title="《新梦幻之城》金钱快速培养幻兽攻略">《新梦幻之城》金钱快速培养幻兽攻略</a></li><li><a href="http://mhfx.wangye.com/gonglue/52900.html" target="_blank" title="《梦幻飞仙》炎灵给力攻略">《梦幻飞仙》炎灵给力攻略</a></li>
+		</ul>
+		</div>
+		<div class="zx_left_pic">
+		<dl>
+		<dd><a href="http://sxd.wangye.com/gonglue/53193.html" target="_blank"><img src="/uploads/130321/3822-13032115341O50.jpg" width="150" height="100" /></a></dd>
+		<dt><a href="http://sxd.wangye.com/gonglue/53193.html" target="_blank" title="《神仙道》朔金界7层通关心得">《神仙道》朔金界7层通关心得</a></dt>
+		</dl><dl>
+		<dd><a href="http://lj.wangye.com/gonglue/53177.html" target="_blank"><img src="/uploads/130320/3822-130320161012242.jpg" width="150" height="100" /></a></dd>
+		<dt><a href="http://lj.wangye.com/gonglue/53177.html" target="_blank" title="《龙将》关于宝石镶嵌的策略">《龙将》关于宝石镶嵌的策略</a></dt>
+		</dl>
+		</div>	
+		
+    </div>
+    <div class="zx_right">
+      <div class="zx_right_ti"> <span>热门新闻排行</span>
+      </div>
+      <div class="zx_right_list">
+        <table width="298" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="34" height="29" align="center" bgcolor="#EFEFEF" class="color01">排名</td>
+            <td width="264" align="center" bgcolor="#EFEFEF" class="color01">新闻标题</td>
+          </tr>
+		  <script>
+		var i2;
+		if(typeof(i2)=='undefined'){
+			i2 = 1;
+		}else{
+			i2 = eval(i2+1);
+		}
+		if(i2%2 == 0){
+			if(i2 == 2){
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center'><img src='/templets/images/index20111216/icon_2.jpg' width='14' height='13' /></td>");
+			}else{
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+		}else{
+		
+			if(i2 == 1){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon.jpg' width='14' height='13' /></td>");
+			}else if(i2 == 3){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon3.jpg' width='14' height='13' /></td>");
+			}else{
+			
+				document.write("<tr><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+
+		}
+	</script>
+	
+            <td align="left"><a href="http://xinwen.wangye.com/yejie/50284.html" target='_blank'>腾讯如何做游戏：资源的动态分散与集中</a></td>
+          </tr>
+<script>
+		var i2;
+		if(typeof(i2)=='undefined'){
+			i2 = 1;
+		}else{
+			i2 = eval(i2+1);
+		}
+		if(i2%2 == 0){
+			if(i2 == 2){
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center'><img src='/templets/images/index20111216/icon_2.jpg' width='14' height='13' /></td>");
+			}else{
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+		}else{
+		
+			if(i2 == 1){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon.jpg' width='14' height='13' /></td>");
+			}else if(i2 == 3){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon3.jpg' width='14' height='13' /></td>");
+			}else{
+			
+				document.write("<tr><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+
+		}
+	</script>
+	
+            <td align="left"><a href="http://xinwen.wangye.com/yejie/50282.html" target='_blank'>动漫改编游戏：动漫业的变现与游戏业的冒险</a></td>
+          </tr>
+<script>
+		var i2;
+		if(typeof(i2)=='undefined'){
+			i2 = 1;
+		}else{
+			i2 = eval(i2+1);
+		}
+		if(i2%2 == 0){
+			if(i2 == 2){
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center'><img src='/templets/images/index20111216/icon_2.jpg' width='14' height='13' /></td>");
+			}else{
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+		}else{
+		
+			if(i2 == 1){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon.jpg' width='14' height='13' /></td>");
+			}else if(i2 == 3){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon3.jpg' width='14' height='13' /></td>");
+			}else{
+			
+				document.write("<tr><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+
+		}
+	</script>
+	
+            <td align="left"><a href="http://xinwen.wangye.com/yejie/50246.html" target='_blank'>4人设局引上百游戏玩家“入瓮” 一年骗近10万</a></td>
+          </tr>
+<script>
+		var i2;
+		if(typeof(i2)=='undefined'){
+			i2 = 1;
+		}else{
+			i2 = eval(i2+1);
+		}
+		if(i2%2 == 0){
+			if(i2 == 2){
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center'><img src='/templets/images/index20111216/icon_2.jpg' width='14' height='13' /></td>");
+			}else{
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+		}else{
+		
+			if(i2 == 1){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon.jpg' width='14' height='13' /></td>");
+			}else if(i2 == 3){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon3.jpg' width='14' height='13' /></td>");
+			}else{
+			
+				document.write("<tr><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+
+		}
+	</script>
+	
+            <td align="left"><a href="http://xinwen.wangye.com/yejie/50220.html" target='_blank'>微信网游异业携手 多元化营销方式持续爆发</a></td>
+          </tr>
+<script>
+		var i2;
+		if(typeof(i2)=='undefined'){
+			i2 = 1;
+		}else{
+			i2 = eval(i2+1);
+		}
+		if(i2%2 == 0){
+			if(i2 == 2){
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center'><img src='/templets/images/index20111216/icon_2.jpg' width='14' height='13' /></td>");
+			}else{
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+		}else{
+		
+			if(i2 == 1){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon.jpg' width='14' height='13' /></td>");
+			}else if(i2 == 3){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon3.jpg' width='14' height='13' /></td>");
+			}else{
+			
+				document.write("<tr><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+
+		}
+	</script>
+	
+            <td align="left"><a href="http://xinwen.wangye.com/yejie/50193.html" target='_blank'>多玩YY招股书显示游戏收入46% 超过广告收入3倍</a></td>
+          </tr>
+<script>
+		var i2;
+		if(typeof(i2)=='undefined'){
+			i2 = 1;
+		}else{
+			i2 = eval(i2+1);
+		}
+		if(i2%2 == 0){
+			if(i2 == 2){
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center'><img src='/templets/images/index20111216/icon_2.jpg' width='14' height='13' /></td>");
+			}else{
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+		}else{
+		
+			if(i2 == 1){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon.jpg' width='14' height='13' /></td>");
+			}else if(i2 == 3){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon3.jpg' width='14' height='13' /></td>");
+			}else{
+			
+				document.write("<tr><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+
+		}
+	</script>
+	
+            <td align="left"><a href="http://xinwen.wangye.com/yejie/50219.html" target='_blank'>网游《凡人修真2》涉嫌违规 执法部门立案调查</a></td>
+          </tr>
+<script>
+		var i2;
+		if(typeof(i2)=='undefined'){
+			i2 = 1;
+		}else{
+			i2 = eval(i2+1);
+		}
+		if(i2%2 == 0){
+			if(i2 == 2){
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center'><img src='/templets/images/index20111216/icon_2.jpg' width='14' height='13' /></td>");
+			}else{
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+		}else{
+		
+			if(i2 == 1){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon.jpg' width='14' height='13' /></td>");
+			}else if(i2 == 3){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon3.jpg' width='14' height='13' /></td>");
+			}else{
+			
+				document.write("<tr><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+
+		}
+	</script>
+	
+            <td align="left"><a href="http://xinwen.wangye.com/yejie/50112.html" target='_blank'>单款手游日收入200万？ 渠道成移动游戏营收爆发点</a></td>
+          </tr>
+<script>
+		var i2;
+		if(typeof(i2)=='undefined'){
+			i2 = 1;
+		}else{
+			i2 = eval(i2+1);
+		}
+		if(i2%2 == 0){
+			if(i2 == 2){
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center'><img src='/templets/images/index20111216/icon_2.jpg' width='14' height='13' /></td>");
+			}else{
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+		}else{
+		
+			if(i2 == 1){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon.jpg' width='14' height='13' /></td>");
+			}else if(i2 == 3){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon3.jpg' width='14' height='13' /></td>");
+			}else{
+			
+				document.write("<tr><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+
+		}
+	</script>
+	
+            <td align="left"><a href="http://xinwen.wangye.com/yejie/50110.html" target='_blank'>趣游集团登榜德勤高科技高成长中国50强</a></td>
+          </tr>
+<script>
+		var i2;
+		if(typeof(i2)=='undefined'){
+			i2 = 1;
+		}else{
+			i2 = eval(i2+1);
+		}
+		if(i2%2 == 0){
+			if(i2 == 2){
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center'><img src='/templets/images/index20111216/icon_2.jpg' width='14' height='13' /></td>");
+			}else{
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+		}else{
+		
+			if(i2 == 1){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon.jpg' width='14' height='13' /></td>");
+			}else if(i2 == 3){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon3.jpg' width='14' height='13' /></td>");
+			}else{
+			
+				document.write("<tr><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+
+		}
+	</script>
+	
+            <td align="left"><a href="http://xinwen.wangye.com/yejie/50044.html" target='_blank'>网企收入百强：网游占44家 腾讯网易百度前三</a></td>
+          </tr>
+<script>
+		var i2;
+		if(typeof(i2)=='undefined'){
+			i2 = 1;
+		}else{
+			i2 = eval(i2+1);
+		}
+		if(i2%2 == 0){
+			if(i2 == 2){
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center'><img src='/templets/images/index20111216/icon_2.jpg' width='14' height='13' /></td>");
+			}else{
+				document.write("<tr bgcolor='#EFEFEF'><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+		}else{
+		
+			if(i2 == 1){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon.jpg' width='14' height='13' /></td>");
+			}else if(i2 == 3){
+				document.write("<tr><td height='29' align='center'><img src='/templets/images/index20111216/icon3.jpg' width='14' height='13' /></td>");
+			}else{
+			
+				document.write("<tr><td height='29' align='center' class='color02'>"+i2+"</td>");
+			}
+
+		}
+	</script>
+	
+            <td align="left"><a href="http://xinwen.wangye.com/yejie/50042.html" target='_blank'>网易游戏频道剥离迁往杭州 丁磊亲自作动员</a></td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="maskDiv" style="position:absolute;left:0;top:0;z-index:100;display:none;background:#000;filter:alpha(Opacity=80);-moz-opacity:0.8;opacity:0.8;"></div>
+<script type="text/javascript" src="http://www.wangye.com/templets/newstyle_images/js/grab_htm_index.js"></script>
+<script src="http://www.wangye.com/templets/newstyle_images/js/grab_login.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.wangye.com/templets/newstyle_images/jcarousellite.js"></script>		
+<script type="text/javascript" src="http://www.wangye.com/templets/newstyle_images/swfobject.js"></script>
+<script type="text/javascript" src="http://www.wangye.com/templets/newstyle_images/index.js"></script>
+
+<div id="foot">
+<div id="footer">
+<p><a href="http://www.wangye.com/about/index.html" target="_blank">关于网页游戏网</a> | <a href="http://www.wangye.com/plus/flink.php" target="_blank">友情链接</a> | <a href="http://www.wangye.com/lianxi/index.html" target="_blank">联系我们</a> | <a href="http://www.wangye.com/mianze/index.html" target="_blank">免责声明</a> </p>
+<p>如有意见和建议，请惠赐E-mail至 wangye@wangye.com</p>
+<p>Copyright&copy; <a style="border-bottom:2px red solid" href="http://www.wangye.com">网页游戏网</a>  <a href="http://www.wangye.com">wangye.com</a> <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备11013380号-2</a></p>
+</div>
+
+ <script type="text/javascript" src="http://js.tongji.linezing.com/2449799/tongji.js"></script>
+</div>
+
+</div>
+</body>
+</html>
