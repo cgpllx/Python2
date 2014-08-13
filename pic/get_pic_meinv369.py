@@ -1,4 +1,5 @@
 # coding=utf-8
+# 采集时仍然遭遇反采集限制，无法解决此问题，暂时不弄python采集了
 # get picture from http://www.meinv369.com/
 # Filename:get_pic_meinv369.py
 
@@ -6,12 +7,13 @@ from MyDB import MyDB
 import getPics_module
 import re
 import time
+import random
 
 
 
 def saveTopics():
 	url = 'http://www.meinv369.com/'
-	html = getPics_module.getHtml(url)
+	html = getPics_module.getHtmlProxies(url)
 	pattern_topic = '<div class="nav">(.*?)</div>'
 	topics = getPics_module.getTopic(pattern_topic,html)
 	# print topics
@@ -25,7 +27,7 @@ def saveTopics():
 
 # 获取图集列表部分的HTML		
 def getPicsHtml(url):
-	html = getPics_module.getHtml(url)
+	html = getPics_module.getHtmlProxies(url)
 	# print html
 	pattern = re.compile(r'<div class="i01">(.*?)</div>',re.DOTALL)
 	res = pattern.findall(html)
@@ -38,7 +40,7 @@ def saveAlbums():
 	url = 'http://www.meinv369.com/mm/'
 	topic_id = 9
 	
-	html = getPics_module.getHtml(url)
+	html = getPics_module.getHtmlProxies(url)
 	pattern_page = re.compile(r'<div class="page page_l">(.*?)</div>',re.DOTALL)
 	page_info = pattern_page.findall(html)
 	print page_info[0]
@@ -62,21 +64,8 @@ def saveAlbums():
 		albums_info = getPics_module.getAlbum(html_album)
 		# print albums_info[0]
 		# exit()
-		for album in albums_info:
-			# album_title = 
-			# print album
-			
-			# s = album['album_title'].decode('gbk')
-			# album_title = s.encode('utf8')
-			# album_thumb_net = pre + album['album_thumb_net']
-			# album_url = pre + album['album_url']
-			
-			# print album_title
-			# print album_thumb_net
-			# print album_url
-			# db.saveAlbum(topic_id,album_title,album_thumb_net,album_url)
-			getOnePageAlbum(album_url,topic_id,pre)
-		# break
+		for album in albums_info:			
+			getOnePageAlbum(album_url,topic_id,pre)		
 	exit()
 	
 # 获取一页图集列表的图集数据
@@ -101,7 +90,7 @@ def getOnePageAlbum(album_url,topic_id,pre):
 
 # 获取一个图集的所有图片
 def getPhotos(url,pre,album_id):
-	html = getPics_module.getHtml(url)
+	html = getPics_module.getHtmlProxies(url)
 	pic = getPhoto(html)
 	url = getPics_module.formatUrl(url)
 	# print pic
@@ -111,12 +100,8 @@ def getPhotos(url,pre,album_id):
 	# exit()
 	# counter = 0
 	for i in range(page_sum-1):
-		url2 = url + '_' + str(i+2) + '.html'
-		# print url2
-		# continue
-		# if counter==6:
-			# time.sleep(5)
-		html = getPics_module.getHtml(url2)
+		url2 = url + '_' + str(i+2) + '.html'		
+		html = getPics_module.getHtmlProxies(url2)
 		pic = pre + '/' + getPhoto(html)
 		print pic		
 		res = db.savePicture(album_id,pic)
@@ -194,7 +179,7 @@ db = MyDB(host,root,pwd,db,chset)
 
 # url = 'http://www.meinv369.com/mm/mm767.html'
 # getPhoto(url)
-# html = getPics_module.getHtml(url)
+# html = getPics_module.getHtmlProxies(url)
 # # print html
 # # exit()
 # getAlbumPage(html)

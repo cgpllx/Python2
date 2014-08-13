@@ -9,8 +9,33 @@ import re
 import time
 import random
 
+# 代理
+def getHtmlProxies(url):
+	proxylist = (
+	'123.234.49.194:8080',
+	'117.59.217.236:80',  
+	'112.65.59.61:8585',
+	'124.118.226.245:8585',
+	'110.16.134.58:8585',
+	'112.123.44.249:8585',
+	'115.48.151.118:8585',
+	'119.60.221.5:8585',
+	'113.71.82.144:8585',
+	'112.67.39.221:8585',
+	)
+	for proxy in proxylist:
+		proxies = {'': proxy}		
+		opener = urllib.FancyURLopener(proxies)		
+		f = opener.open(url)
+		# print f.code
+		if f.code != 403:
+			html = f.read()
+			break
+		else:
+			html = []
+	return html
+
 def getHtml(url):
-	# timeout = 40
 	request = urllib2.urlopen(url)
 	html = request.read()
 	request.close()
@@ -134,7 +159,3 @@ def getPicName(url):
 	name = arr[-1]
 	name = nameTime() + name
 	return name
-	
-	# print hrefs[0]
-	# print srcs[0]
-	# print titles[0]
